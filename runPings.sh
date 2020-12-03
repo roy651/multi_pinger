@@ -1,8 +1,8 @@
 #!/bin/bash
 # hot = '192.168.2.48'
 # bezeq = '192.168.1.132'
-hot=""
-bezeq=""
+hot="192.168.2.48"
+bezeq="192.168.1.132"
 while [[ "$#" -gt 0 ]]; do
     case $1 in
         -h|--hot) hot="$2"; shift ;;
